@@ -1,0 +1,115 @@
+{
+  "name": "vizvasanlya-quiz-app",
+  "title": "Quiz Learning App",
+  "subtitle": "Attempts, scores, topics, and review",
+  "eyebrow": "Education MVP",
+  "initial": "QZ",
+  "accent": "#7c2d12",
+  "description": "Run quizzes, track attempts, identify weak topics, and guide learners through review paths.",
+  "metrics": [
+    {
+      "label": "Total quizzes",
+      "delta": "Learning",
+      "type": "count"
+    },
+    {
+      "label": "Active sets",
+      "delta": "Practice",
+      "type": "count"
+    },
+    {
+      "label": "Pass rate",
+      "delta": "Mastery",
+      "type": "percent"
+    },
+    {
+      "label": "Critical topics",
+      "delta": "Review",
+      "type": "count"
+    },
+    {
+      "label": "Learning value",
+      "delta": "Growth",
+      "type": "currency"
+    }
+  ],
+  "statuses": [
+    "Popular",
+    "Improving",
+    "Review",
+    "Advanced",
+    "Draft"
+  ],
+  "resources": [
+    {
+      "title": "JavaScript fundamentals",
+      "owner": "Frontend",
+      "status": "Popular",
+      "priority": "High",
+      "dueDate": "2026-06-16",
+      "value": 3600,
+      "detail": "Most attempted quiz with strong completion rate.",
+      "notes": "Add harder closure questions."
+    },
+    {
+      "title": "CSS layout challenge",
+      "owner": "Design Eng",
+      "status": "Improving",
+      "priority": "Medium",
+      "dueDate": "2026-06-20",
+      "value": 2100,
+      "detail": "Flexbox and grid questions show progress.",
+      "notes": "Add visual debugging tasks."
+    },
+    {
+      "title": "Node authentication",
+      "owner": "Backend",
+      "status": "Review",
+      "priority": "Critical",
+      "dueDate": "2026-06-15",
+      "value": 4200,
+      "detail": "Authentication questions need more practice.",
+      "notes": "Add middleware and token examples."
+    },
+    {
+      "title": "React state scenarios",
+      "owner": "Frontend",
+      "status": "Advanced",
+      "priority": "High",
+      "dueDate": "2026-06-22",
+      "value": 3900,
+      "detail": "Scenario questions added for deeper review.",
+      "notes": "Include reducer and effect examples."
+    },
+    {
+      "title": "API testing basics",
+      "owner": "QA",
+      "status": "Draft",
+      "priority": "Medium",
+      "dueDate": "2026-06-25",
+      "value": 1800,
+      "detail": "New quiz for HTTP methods and assertions.",
+      "notes": "Add sample responses."
+    },
+    {
+      "title": "Database indexing",
+      "owner": "Backend",
+      "status": "Review",
+      "priority": "High",
+      "dueDate": "2026-06-18",
+      "value": 3000,
+      "detail": "Topic shows low pass rate and needs review.",
+      "notes": "Add visual index explanation."
+    }
+  ],
+  "activity": [
+    {
+      "text": "Added React scenario questions.",
+      "at": "2026-06-10T13:00:00Z"
+    },
+    {
+      "text": "Flagged authentication review.",
+      "at": "2026-06-07T10:30:00Z"
+    }
+  ]
+}

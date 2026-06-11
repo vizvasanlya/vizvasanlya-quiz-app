@@ -1,14 +1,15 @@
-# Quiz App
+# Quiz Learning App
 
-An interactive quiz experience for learning paths, scored attempts, topic review, and progress tracking.
+Run quizzes, track attempts, identify weak topics, and guide learners through review paths.
 
-## Features
+## MVP features
 
-- Responsive dashboard layout
-- Interactive quick-add workflow
-- Filterable item list
-- Metric cards and insight panel
-- LocalStorage persistence for new items
+- Responsive single-page application
+- LocalStorage persistence
+- Search, filter, sort, and view switching
+- Add, edit, delete, complete, import, and export workflows
+- Metrics, details panel, activity log, and analytics view
+- Seed data tailored to the domain
 
 ## Run
 
@@ -16,4 +17,4 @@ An interactive quiz experience for learning paths, scored attempts, topic review
 npm start
 ```
 
-Open `http://localhost:5173` in a browser.
+Open `http://localhost:5173`.
